@@ -1,0 +1,43 @@
+* {
+    margin: 5px;
+}
+
+header {
+    background-color: blue;
+    width: 1785px;
+    height: 100px;
+    width: 1785px;
+    height: 100px;
+}
+
+nav {
+    background-color: aquamarine;
+    width: 1785px;
+    height: 100px;
+}
+
+section {
+    background-color: rosybrown;
+    width: 520px;
+    height: 1000px;
+    margin-right: 1270px;
+    margin-top: 10px;
+}
+
+article {
+    background-color: darkblue;
+    width: 1256px;
+    height: 1000px;
+    margin-left: 530px;
+    margin-top: -1004px;
+    
+}
+
+footer {
+    background-color: brown;
+    clear: both;
+    width: 1785px;
+    height: 100px;
+    width: 1785px;
+    
+}

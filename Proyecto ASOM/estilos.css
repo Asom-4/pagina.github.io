@@ -1,0 +1,18 @@
+button{
+    color: blue;
+
+}
+.grande{
+    width: 3000px;
+}
+.normal{
+    width: 500px;
+}
+.pequeño{
+    width: 370px;
+}
+.crear{
+    background-color: brown;
+    width: 400px;
+    height: 700px;
+}

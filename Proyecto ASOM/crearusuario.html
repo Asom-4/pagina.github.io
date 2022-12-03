@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="./app.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+
+        <div class="crear">
+            <form action="" id="registro" name="registro">
+                <h4>Registrate</h4>
+                <p>Recuerda llenar todos los campos</p>
+                <p>Ingresa tus nombres y apellidos</p>
+                <input type="text" name="nombre" id="nombre">
+                <input type="text" name="apellidos" id="apellidos">
+                <br>
+                <p>Ingresa tu genero</p>
+                <input type="radio" name="genero" id="Masculino" value="Masculino">Masculino
+                <input type="radio" name="genero" id="Femenino" value="Femenino">Femenino
+                <br>
+                <p>Ingresa tu numero de cedula</p>
+                <input type="number" name="cedula" id="cedula">
+                <br>
+                <p>Ingresa tu numero de telefono</p>
+                <input type="number" name="telefono" id="telefono">
+                <br>
+                <p>Ingresa tu fecha de nacimiento</p>
+                <input type="date" name="fn" id="fn">
+                <br>
+                <p>Ingresa tu correo electronico</p>
+                <input type="email" name="ce" id="ce">
+                <br>
+                <p>Ingresa una contraseña</p>
+                <input type="password" name="clave" id="clave">
+                <br>
+                <p>Confirmar contraseña</p>
+                <input type="password" name="clave1" id="clave1">
+                <br>
+                <input type="checkbox" name="terminos" id="terminos">Terminos y condiciones
+                <input type="submit" value="Iniciar Sesion" onclick="validarRegistro()">
+            </form>
+        </div>
+    </center>
+</body>
+
+</html>
